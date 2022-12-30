@@ -1,0 +1,57 @@
+body{
+  background: rgb(186,36,178);
+background: linear-gradient(148deg, rgba(186,36,178,1) 5%, rgba(35,168,179,0.835171568627451) 50%, rgba(167,84,15,1) 89%);
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 400px !important;
+}
+
+.form-select{
+  width: 400px;
+}
+
+.navbar{
+width: 100vw;
+margin-left: -100px;
+
+}
+
+img{
+  width: 50% !important;
+  height: 50% !important;
+
+
+
+}
+.App {
+  text-align: center !important;
+  margin-bottom: 5px !important;
+}
+
+.App-logo {
+  height: 100vmin;
+  pointer-events:none;
+}
+
+
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+

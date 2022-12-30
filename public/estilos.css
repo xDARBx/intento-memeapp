@@ -1,0 +1,98 @@
+body {
+  font-family: roboto;
+  margin: 0;
+  background-color: silver;
+}
+.container {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.img_container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+figure {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+}
+
+.texto_superior {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+input,
+select,
+button {
+  margin: 0.4rem;
+}
+
+input[type="range"] {
+  width: 75px;
+}
+
+input[type="text"] {
+  width: 125px;
+}
+
+#modificadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-label {
+  margin: 0;
+}
+
+#eleccionimg {
+  display: inline-block;
+}
+
+/* li img {
+  padding: 2px;
+  height: 60px;
+  width: 60px;
+} */
+/* con carga img */
+/* .dropdown {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.dropdown-item {
+  width: 20%;
+  padding: 1px;
+  text-align: center;
+  cursor: pointer;
+}  */
+
+.dropdown-menu.show {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  margin: 0;
+} 
+
+.dropdown button{
+  margin: 0;
+}
